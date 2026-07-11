@@ -1,2 +1,17 @@
 .vscode/
 .DS_Store
+
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+crash.log
+crash.*.log
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
